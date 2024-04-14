@@ -6,6 +6,7 @@ export default async function Home() {
 
   return (
     <div>
+      <SignInButton />
       <SignOutButton />
       <h1>{session.user.name}</h1>
       <h2>{session.user.email}</h2>
